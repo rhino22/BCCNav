@@ -1,0 +1,18 @@
+{
+  "name": "BCCNav",
+  "version": "0.0.0",
+  "authors": [
+    "Thomas Cranny <Thom@sCranny.net>"
+  ],
+  "description": "Inspired by UqNav, a Brisbane City navigation web-app, using Brisbane City Council data.",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bcc_nav/static/components/",
+    "test",
+    "tests"
+  ]
+}

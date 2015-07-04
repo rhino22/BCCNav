@@ -1,0 +1,76 @@
+/* http://stackoverflow.com/questions/18529274/change-navbar-color-in-twitter-bootstrap-3 */
+/* http://work.smarchal.com/twbscolor/css/e74c3cc0392becf0f1ffbbbc0 */
+/* navbar */
+.navbar-default {
+  background-color: $bcc-color-default;
+  border-color: $bcc-color-active;
+}
+.navbar-default .navbar-brand {
+  color: $bcc-color-hl-default;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: $bcc-color-hl-default;
+}
+.navbar-default .navbar-text {
+  color: $bcc-color-hl-default;
+}
+.navbar-default .navbar-nav > li > a {
+  color: $bcc-color-hl-default;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: $bcc-color-hl-default;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: $bcc-color-default;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: $bcc-color-hl-default;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: $bcc-color-hl-default;
+  background-color: $bcc-color-active;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: $bcc-color-default;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: $bcc-color-hl-default;
+  background-color: $bcc-color-active;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: $bcc-color-hl-default;
+  background-color: $bcc-color-active;
+}
+.navbar-default .navbar-toggle {
+  border-color: $bcc-color-active;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: $bcc-color-active;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: $bcc-color-hl-default;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: $bcc-color-hl-default;
+}
+.navbar-default .navbar-link {
+  color: $bcc-color-hl-default;
+}
+.navbar-default .navbar-link:hover {
+  color: $bcc-color-hl-default;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: $bcc-color-hl-default;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: $bcc-color-hl-default;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: $bcc-color-hl-default;
+    background-color: $bcc-color-active;
+  }
+}
